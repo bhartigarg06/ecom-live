@@ -1,1 +1,1 @@
-# ecom-live
+@copyright by becodemy 2023
