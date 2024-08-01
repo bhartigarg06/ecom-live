@@ -40,7 +40,7 @@ router.post(
 
       const activationToken = createActivationToken(seller);
 
-      const activationUrl = `http://localhost:3000/seller/activation/${activationToken}`;
+      const activationUrl = `${process.env.FRONTEND_URL}/seller/activation/${activationToken}`;
       console.log(activationUrl);
 
       try {
